@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INST377 - Lab 4</title>
+    <link rel="stylesheet" href="Lab4CSS.css">
+</head>
+<body>
+
+    <h1>INST377 Lab 4</h1>
+
+    <section id="general-section">
+        <h2>General Section</h2>
+        <p>This section demonstrates the general layout.</p>
+    </section>
+
+    <section id="alert-section">
+        <h2>Alert Me Section</h2>
+        <form id="alert-form">
+            <input type="text" id="name-input" placeholder="Enter your name" required>
+            <button type="button" onclick="alertUser()">Alert Me</button>
+        </form>
+    </section>
+
+    <section id="color-section">
+        <h2>Change Color Section</h2>
+        <button onclick="changeColor()">Change Color</button>
+    </section>
+
+    <section id="text-tester-section">
+        <h2>Text Tester Section</h2>
+        <form id="text-form">
+            <input type="text" id="text-input" placeholder="Enter text" required>
+            <button type="button" onclick="validateText()">Validate Text</button>
+        </form>
+    </section>
+
+    <section id="add-text-section">
+        <h2>Add Text Section</h2>
+        <button onclick="addText()">Add Text</button>
+    </section>
+
+    <script src="Lab4Script.js"></script>
+
+</body>
+</html>
